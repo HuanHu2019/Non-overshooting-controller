@@ -11,9 +11,9 @@
 
 5. *agent.py*. It's classes of agents for PPO.
 
-6. *aeropy_fix.py*. It's functions for aerodynamics and kinectics of the wing-in-ground craft during training.
+6. *aeropy_fix.py*. It's functions for aerodynamics and kinectics of the wing-in-ground craft (WIG) during training.
 
-* **Prerequisites for running codes:**  In order to run the code at each sub-sub directory, the file 'datacollection.npy' should be downloaded and then placed in the root directory, meaning that it is placed with 'Case1_Scheme_1_twoitems', etc. Since the website of Github limits the size of files, the necessary file and main results are placed in the same directory and they are upload in onedrive. The link is https://maildluteducn-my.sharepoint.com/:f:/g/personal/huhuan2019_mail_dlut_edu_cn/EnfjpZlH5URIteBXVf55bIUBFbkowtktd30EE767rn5naA?e=R5faeH
+* **Prerequisites for running codes:**  In order to run the code at each sub-sub directory, the file 'datacollection.npy' should be downloaded and then placed in the root directory, meaning that it is placed with 'Case1_Scheme_1_twoitems', etc. Since the website of Github limits the size of files, the necessary file and main results are placed in the same directory and they are upload in onedrive. The link is https://maildluteducn-my.sharepoint.com/:f:/g/personal/huhuan2019_mail_dlut_edu_cn/EnfjpZlH5URIteBXVf55bIUBFbkowtktd30EE767rn5naA?e=R5faeH. The file 'datacollection.npy' is used for the calculation of aerodynamics for the WIG.
 
 * **Main results after running codes:** At the each sub-sub directory of 'Results' (in the onedrive or be downloaded), there are eight files which are the outputs after the training, which are as following:
 
